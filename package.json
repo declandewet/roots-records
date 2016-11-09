@@ -16,17 +16,17 @@
   },
   "main": "lib",
   "dependencies": {
-    "lodash": "3.x",
+    "lodash": "^4.16.6",
     "request": "2.x",
-    "roots-util": "0.1.x",
+    "roots-util": "~0.2.0",
     "when": "3.x"
   },
   "devDependencies": {
-    "coffee-script": "1.9.x",
-    "glob": "5.x",
-    "mocha": "2.x",
-    "roots": "3.0.x",
-    "should": "6.x"
+    "coffee-script": "~1.11.1",
+    "glob": "^7.1.1",
+    "mocha": "^3.1.2",
+    "roots": "~5.0.0",
+    "should": "^11.1.1"
   },
   "scripts": {
     "test": "mocha"
